@@ -25,7 +25,7 @@ from sklearn.metrics import (
 # 0) KONFIGURASI UTAMA (cukup ubah di sini saja)
 # =========================================================
 BASE_DIR = os.path.dirname(__file__)
-ARTIFACT_DIR = os.path.join(BASE_DIR, "artifacts_pustu_final_v4")
+ARTIFACT_DIR = os.path.join(BASE_DIR, ".")
 DATA_XLSX_PATH = os.path.join(BASE_DIR, "Data_diagnosa_penyakit.xlsx")
 
 # =========================================================
@@ -1677,3 +1677,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+

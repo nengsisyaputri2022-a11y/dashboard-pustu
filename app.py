@@ -26,7 +26,7 @@ from sklearn.metrics import (
 # =========================================================
 BASE_DIR = os.path.dirname(__file__)
 ARTIFACT_DIR = os.path.join(BASE_DIR, ".")
-DATA_XLSX_PATH = os.path.join(BASE_DIR, "")
+DATA_XLSX_PATH = "Data_diagnosa_penyakit.xlsx"
 
 # =========================================================
 # A) UI THEME / STYLE (punya kamu + KPI mini)
@@ -1677,5 +1677,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
